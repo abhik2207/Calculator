@@ -16,7 +16,6 @@ body {
 }
 
 .calculator {
-    /* border: 1px solid #828282; */
     padding: 20px;
     border-radius: 20px;
     background: transparent;
@@ -35,10 +34,11 @@ input {
     cursor: pointer;
     color: #FFFFFF;
     margin-bottom: 30px;
+    border-radius: 10px;
 }
 
 input::placeholder {
-    color: #FFFFFF;
+    color: #ffffffa4;
 }
 
 button {
@@ -50,7 +50,7 @@ button {
     background: transparent;
     color: #FFFFFF;
     font-size: 20px;
-    box-shadow: -4px -4px 15px rgba(255, 255, 255, 0.5);
+    box-shadow: -3px -3px 10px rgba(255, 255, 255, 0.3);
     cursor: pointer;
 }
 
